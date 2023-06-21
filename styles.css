@@ -1,14 +1,16 @@
-
+body{
+    background: linear-gradient(to right, rgb(235, 236, 212), rgb(204, 233, 235));
+}
 .calculator {
     width: 200px;
     margin: 0 auto;
     padding: 10px;
-    background-color: rgba(82, 34, 255, 0.133);
+    background-color: rgba(82, 40, 231, 0.133);
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
 
 }
-#results {
+#result {
     width: 93%;
     margin-bottom: 10px;
     padding: 5px;
@@ -29,7 +31,8 @@ button {
     border: none;
     background-color: #fff;
     cursor: pointer; 
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     
 }
 .operator {
