@@ -1,3 +1,11 @@
-* {
-    background-image: lightgradiant(#218496,#729fb4);
+
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(82, 34, 255, 0.133);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+
 }
